@@ -9,6 +9,11 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "homepage": "https://bhargavbhalekar.github.io/React-portfolio",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "react": "^19.1.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
