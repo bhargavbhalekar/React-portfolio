@@ -1,5 +1,5 @@
 import React, { use, useState } from 'react'
-import './Navbar.css'
+import './navbar.css'
 import logo from '../../assets/logo.svg'; // Correct relative path from /src/components/Navbar/
 import underline from '../../assets/nav_underline.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
